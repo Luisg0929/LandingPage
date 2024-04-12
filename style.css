@@ -1,6 +1,9 @@
 * {
    margin: 0; 
 }
+p {
+    text-wrap: pretty;
+}
 
 
 /*First section*/
@@ -39,7 +42,7 @@
 
 .S2 {
     height: 300px;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
 }
 
 .S3 {
@@ -145,4 +148,112 @@ button {
 /*Second section*/
 /*----------------------------------------------------------------------------------------------*/
 
+
+.S2-top {
+    height: 60px;
+    /*border: 3px solid red;*/
+}
+
+.S2-top-text {
+    
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-family: monospace;
+    
+}
+
+.S2-bottom-top {
+    height: 110px;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.S2-img1 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    
+    
+}
+
+.S2-img2 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.S2-img3 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.S2-img4 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+
+.S2-bottom-text {
+    height: 50px;
+    /*border: 3px solid blue;*/
+    display: flex;
+    justify-content: space-evenly;
+    text-wrap: pretty;
+    
+
+}
+
+.project1 {
+    height: 47px;
+    width: 100px;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project2 {
+    height: 47px;
+    width: 100px;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+.project3 {
+    height: 47px;
+    width: 100px;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+.project4 {
+    height: 47px;
+    width: 100px;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    height: 100px;
+    width: 101px;
+    border-radius: 8px;
+
+}
+
+/*Section 3*/
+/*---------------------------------------------------------*/
 
